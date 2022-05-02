@@ -20,11 +20,12 @@
             <li>item three</li>
         </ol>
         </div>
+        <div id="flag-pic">
         <p>The <b>Ethiopian</b> flag:</p>
         <br>
         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg" alt="Flag_of_Ethiopia" width="500">
         <p><em>Imange creadits</em>: <strong><a href="https://wikipedia.org/wiki/ethiopia">Wikipedia</a></strong></p>
-
+        </div>
         <div id="table-1">
             <table>
                 <tr>
@@ -48,9 +49,99 @@
                     <td>-0.41%</td>
                 </tr>
             </table>
-            <p>Source: <a href="https://www.tiobe.com/tiobe-index/"> TIOBE index.</a>  Retrieved: May 2, 2022</p>
-            <p>Backup on <a href="https://web.archive.org/web/20220502075624/https://www.tiobe.com/tiobe-index/">Archive.org</a> and a <a href="https://web.archive.org/web/20220502075624/http://web.archive.org/screenshot/https://www.tiobe.com/tiobe-index/">screenshot</a>
-
         </div>
+        <div id="table-source">
+            <p>Source: <a href="https://www.tiobe.com/tiobe-index/"> TIOBE index.</a>  Retrieved: May 2, 2022</p>
+            <p>Backup on <a href="https://web.archive.org/web/20220502075624/https://www.tiobe.com/tiobe-index/">Archive.org</a> and a <a href="https://web.archive.org/web/20220502075624/http://web.archive.org/screenshot/https://www.tiobe.com/tiobe-index/">screenshot</a></p>
+        </div>
+         <div id="forms">
+            <form method="get" enctype="multipart/form-data">
+                <div id="basic-info">
+                    <b>Basic Info</b>
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div>
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="number" name="age" id="age" min="10" max="70" step="5">
+                    </div>
+                    <div>
+                        <label for="date">Birthdate</label>
+                        <input type="date" name="date" id="date" max="2023-01-01">
+                    </div>
+                </div>
+                <div id="fav-fruit">
+                    <b>Favorite Fruit</b>
+                    <div>
+                        <label for="apple">Apple</label>
+                        <input type="checkbox" name="apple" id="apple">
+                    </div>
+                    <div>
+                    <label for="banana">Banana</label>
+                    <input type="checkbox" name="banana" id="banana">
+                </div>
+                <div>
+                    <label for="orange">Orange</label>
+                    <input type="checkbox" name="orange" id="orange">
+                </div>
+                </div>
+                <div id="submit-gender">
+                    <b>Gender</b>
+                    <div>
+                        <label for="male">Male</label>
+                        <input type="radio" name="gender" id="male" value="male">
+                    </div>
+                    <div>
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    </div>
+                </div>
+                <div id="submit-eyeColor">
+                    <b>Eye Color</b>
+                    <div>
+                    <label for="eyeColor">Eye Color</label>
+                    <select name="eyeColor" id="eyeColor">
+                        <option label="Black" value="black"></option>
+                        <option label="Blue" value="blue"></option>
+                        <option label="Green" value="green"></option>
+                        <option label="Red" value="red"></option>
+                    </select>
+                    </div>
+                </div>
+                <div id="submit-bio">
+                    <b>Bio</b>
+                    <div>
+                    <textarea id="bio" name="bio"></textarea>
+                    </div>
+                </div>
+                <div id="submit-pic">
+                    <b>Submit Picture</b>
+                    <div>
+                        <label for="file">File</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                </div>
+                <div id="submit-favColor">
+                    <b>Pick your favorite color</b>
+                    <div>
+                        <label for="fav-color">Favorite color</label>
+                        <input type="color" name="fav-color" id="fav-color">
+                    </div>
+                </div>
+                <div id="form-buttons">
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+                </div>
+            </form>
+         </div>       
     </body>
 </html>
