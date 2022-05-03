@@ -1,3 +1,3 @@
 # chikachika
 
-a personal repo for practice :)
+a team repo for practice :)

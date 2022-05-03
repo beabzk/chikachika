@@ -1,3 +1,19 @@
+body {
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg");
+    background-color: #464646; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.gray {
+    background-color: #464646;
+    /* opacity: 10%; */
+	cursor: default;
+	padding: 1.75em 2em;
+}
+#placeholder {
+    background-color: #464646;
+}
 table {
     border-collapse: collapse;
 }
