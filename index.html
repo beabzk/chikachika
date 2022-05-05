@@ -3,10 +3,12 @@
     <head>
         <title>kuraz tutorial</title>
         <link rel="stylesheet" href="main.css" type="text/css" media="screen, projection"/>
+		<link rel="icon" type="image/x-icon" href="/images/favicon.ico"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 
     <body>
-        <h1 class="gray">Sub Group 2 of Kuraz Tech</h1>
+        <h1 class="gray">Sub Group 2 of <a href="http://kuraztech.com/">Kuraz Tech</a></h1>
         <div class="gray" id="list-of-members">
             <h3>Members of the Group</h3>
         <ul>
@@ -86,9 +88,10 @@
             <br>
             <p>Nunc ut est ac nunc ornare egestas vel non lacus. Duis ullamcorper ultricies velit, nec ultricies metus condimentum ut. Nam mattis, sapien mollis dignissim porttitor, est augue cursus metus, vel porttitor odio ex id mauris. Vestibulum cursus blandit tortor, vitae mollis turpis rutrum ullamcorper. Curabitur tellus velit, faucibus rhoncus pharetra sed, suscipit non leo. Mauris et pulvinar nisi. Aenean purus tellus, mollis at cursus vitae, rhoncus et erat. Nulla elementum ut nibh eget auctor. Suspendisse nec eleifend ipsum, vel tempor nisl. In purus libero, maximus venenatis magna eu, condimentum sollicitudin elit. Sed orci lorem, hendrerit ac ex vel, pellentesque cursus ligula. Integer tincidunt risus eu urna lacinia hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Morbi pharetra iaculis libero. Nulla tincidunt nibh vitae enim tempus facilisis.</p>
         </div>
+		
          <div id="forms">
             <form method="get" enctype="multipart/form-data">
-                <div id="basic-info">
+                <div id="basic-info" class="forms">
                     <b>Basic Info</b>
                     <div>
                         <label for="name">Name</label>
@@ -111,7 +114,7 @@
                         <input type="date" name="date" id="date" max="2023-01-01">
                     </div>
                 </div>
-                <div id="fav-fruit">
+                <div id="fav-fruit" class="forms">
                     <b>Favorite Fruit</b>
                     <div>
                         <label for="apple">Apple</label>
@@ -126,7 +129,7 @@
                     <input type="checkbox" name="orange" id="orange">
                 </div>
                 </div>
-                <div id="submit-gender">
+                <div id="submit-gender" class="forms">
                     <b>Gender</b>
                     <div>
                         <label for="male">Male</label>
@@ -137,7 +140,7 @@
                     <input type="radio" name="gender" id="female" value="female">
                     </div>
                 </div>
-                <div id="submit-eyeColor">
+                <div id="submit-eyeColor" class="forms">
                     <b>Eye Color</b>
                     <div>
                     <label for="eyeColor">Eye Color</label>
@@ -149,27 +152,27 @@
                     </select>
                     </div>
                 </div>
-                <div id="submit-bio">
+                <div id="submit-bio" class="forms">
                     <b>Bio</b>
                     <div>
                     <textarea id="bio" name="bio"></textarea>
                     </div>
                 </div>
-                <div id="submit-pic">
+                <div id="submit-pic" class="forms">
                     <b>Submit Picture</b>
                     <div>
                         <label for="file">File</label>
                         <input type="file" name="file" id="file">
                     </div>
                 </div>
-                <div id="submit-favColor">
+                <div id="submit-favColor" class="forms">
                     <b>Pick your favorite color</b>
                     <div>
                         <label for="fav-color">Favorite color</label>
                         <input type="color" name="fav-color" id="fav-color">
                     </div>
                 </div>
-                <div id="form-buttons">
+                <div id="form-buttons" class="forms">
                 <button type="reset">Reset</button>
                 <button type="submit">Submit</button>
                 </div>

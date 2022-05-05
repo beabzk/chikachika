@@ -1,21 +1,56 @@
 body {
     background-image: url("https://upload.wikimedia.org/wikipedia/commons/7/71/Flag_of_Ethiopia.svg");
-    background-color: #464646; /* Used if the image is unavailable */
+    background-color: #3e3e3eba; /* Used if the image is unavailable */
     height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+	color: white;
 }
+/* thought the blue link color didn't look good */
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .gray {
-    background-color: #464646;
+    background-color: #3e3e3eba;
     /* opacity: 10%; */
 	cursor: default;
 	padding: 1.75em 2em;
 }
 #placeholder {
-    background-color: #464646;
+    background-color: #3e3e3eba;
 }
+#forms {
+	text-align: center;
+	background-color: #3e3e3eba;
+}
+.forms {
+	margin-bottom: 50px;
+}
+
 table {
     border-collapse: collapse;
+	background-color: #3e3e3eba;
 }
 table th {
     text-align: left;
@@ -27,6 +62,9 @@ table td {
     border: 1px solid black;
     padding: 4px;
 }
-table tr:nth-child(odd) td {
+/* table tr:nth-child(odd) td {
     background-color: bisque;
 }
+
+looks a bit distracting with this
+*/
